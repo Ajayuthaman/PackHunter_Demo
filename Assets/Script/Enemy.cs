@@ -74,7 +74,6 @@ public class Enemy : MonoBehaviour
         }
         else
         {
-            // Reset the timer if not following
             followTimer = 0f;
             freeLookCamera.Priority = 0;
         }

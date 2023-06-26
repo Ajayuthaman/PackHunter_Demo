@@ -11,17 +11,8 @@ public class AnimalController : MonoBehaviour
     [SerializeField] private FloatingJoystick _joystick;
     [SerializeField] private Animator _animator;
 
-    private float hInput;
-    private float vInput;
 
     [SerializeField] private float _moveSpeed;
-
-    private void Start()
-    {
-        hInput = _joystick.Horizontal;
-        vInput = _joystick.Vertical;
-        
-    }
 
     private void FixedUpdate()
     {
@@ -44,11 +35,6 @@ public class AnimalController : MonoBehaviour
             
         }
             
-
-    }
-
-    public void LockMove()
-    {
 
     }
 }
